@@ -1,0 +1,843 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>IMInterstitialDelegate Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">InMobi SDK Documentation </a></h1>
+				<a id="developerHome" href="../index.html">InMobi</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">IMInterstitialDelegate Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/interstitial:didFailToLoadWithError:">&nbsp;&nbsp;&nbsp;&nbsp;- interstitial:didFailToLoadWithError:</option>
+	
+	<option value="//api/name/interstitial:didFailToPresentWithError:">&nbsp;&nbsp;&nbsp;&nbsp;- interstitial:didFailToPresentWithError:</option>
+	
+	<option value="//api/name/interstitial:didInteractWithParams:">&nbsp;&nbsp;&nbsp;&nbsp;- interstitial:didInteractWithParams:</option>
+	
+	<option value="//api/name/interstitial:rewardActionCompletedWithRewards:">&nbsp;&nbsp;&nbsp;&nbsp;- interstitial:rewardActionCompletedWithRewards:</option>
+	
+	<option value="//api/name/interstitialDidDismiss:">&nbsp;&nbsp;&nbsp;&nbsp;- interstitialDidDismiss:</option>
+	
+	<option value="//api/name/interstitialDidFinishLoading:">&nbsp;&nbsp;&nbsp;&nbsp;- interstitialDidFinishLoading:</option>
+	
+	<option value="//api/name/interstitialDidPresent:">&nbsp;&nbsp;&nbsp;&nbsp;- interstitialDidPresent:</option>
+	
+	<option value="//api/name/interstitialDidReceiveAd:">&nbsp;&nbsp;&nbsp;&nbsp;- interstitialDidReceiveAd:</option>
+	
+	<option value="//api/name/interstitialWillDismiss:">&nbsp;&nbsp;&nbsp;&nbsp;- interstitialWillDismiss:</option>
+	
+	<option value="//api/name/interstitialWillPresent:">&nbsp;&nbsp;&nbsp;&nbsp;- interstitialWillPresent:</option>
+	
+	<option value="//api/name/userWillLeaveApplicationFromInterstitial:">&nbsp;&nbsp;&nbsp;&nbsp;- userWillLeaveApplicationFromInterstitial:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/interstitial:didFailToLoadWithError:">interstitial:didFailToLoadWithError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/interstitial:didFailToPresentWithError:">interstitial:didFailToPresentWithError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/interstitial:didInteractWithParams:">interstitial:didInteractWithParams:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/interstitial:rewardActionCompletedWithRewards:">interstitial:rewardActionCompletedWithRewards:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/interstitialDidDismiss:">interstitialDidDismiss:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/interstitialDidFinishLoading:">interstitialDidFinishLoading:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/interstitialDidPresent:">interstitialDidPresent:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/interstitialDidReceiveAd:">interstitialDidReceiveAd:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/interstitialWillDismiss:">interstitialWillDismiss:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/interstitialWillPresent:">interstitialWillPresent:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/userWillLeaveApplicationFromInterstitial:">userWillLeaveApplicationFromInterstitial:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="IMInterstitialDelegate Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">IMInterstitialDelegate Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">IMInterstitialDelegate.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<ul>
+<li>A listener for receiving notifications during the lifecycle of an interstitial.
+*</li>
+<li>Note All the events in this listener will be invoked on your application&rsquo;s UI thread.</li>
+</ul>
+
+
+<p>In most cases your application will need to listen for the following events on an interstitial</p>
+
+<p>The outcome of an ad request (if the request succeeded or failed);
+see interstitialDidFinishLoading:(IMInterstitial<em>)interstitial; and interstitial:(IMInterstitial</em>)interstitial didFailToLoadWithError:(IMRequestStatus*)error;</p>
+
+<p>The full screen ad is diplayed that covered the screen. This means that the user can no longer interact with your application;
+see interstitialDidPresent:(IMInterstitial *)interstitial;</p>
+
+<p>The full screen ad was dismissed. The user is now free to interact with your application;
+see interstitialDidDismiss:(IMInterstitial*)interstitial;</p>
+
+<p>A user interaction with the ad will result in the User leaving your application context;
+see userWillLeaveApplicationFromInterstitial:(IMInterstitial*)interstitial;</p>
+
+<p>If your application involves running rewarded or incentivised ads, then you should, in addition to the above events, also listen for the interstitial:(IMInterstitial<em>)interstitial rewardActionCompletedWithRewards:(NSDictionary</em>)rewards event and handle it appropriately to unlock rewards for the user of your app.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/interstitialDidReceiveAd:">&ndash;&nbsp;interstitialDidReceiveAd:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/interstitialDidFinishLoading:">&ndash;&nbsp;interstitialDidFinishLoading:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/interstitial:didFailToLoadWithError:">&ndash;&nbsp;interstitial:didFailToLoadWithError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/interstitialWillPresent:">&ndash;&nbsp;interstitialWillPresent:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/interstitialDidPresent:">&ndash;&nbsp;interstitialDidPresent:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/interstitial:didFailToPresentWithError:">&ndash;&nbsp;interstitial:didFailToPresentWithError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/interstitialWillDismiss:">&ndash;&nbsp;interstitialWillDismiss:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/interstitialDidDismiss:">&ndash;&nbsp;interstitialDidDismiss:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/interstitial:didInteractWithParams:">&ndash;&nbsp;interstitial:didInteractWithParams:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/interstitial:rewardActionCompletedWithRewards:">&ndash;&nbsp;interstitial:rewardActionCompletedWithRewards:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/userWillLeaveApplicationFromInterstitial:">&ndash;&nbsp;userWillLeaveApplicationFromInterstitial:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/interstitial:didFailToLoadWithError:" title="interstitial:didFailToLoadWithError:"></a>
+	<h3 class="subsubtitle method-title">interstitial:didFailToLoadWithError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the delegate that the interstitial has failed to load with some error.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)interstitial:(IMInterstitial *)<em>interstitial</em> didFailToLoadWithError:(IMRequestStatus *)<em>error</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the delegate that the interstitial has failed to load with some error.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">IMInterstitialDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/interstitial:didFailToPresentWithError:" title="interstitial:didFailToPresentWithError:"></a>
+	<h3 class="subsubtitle method-title">interstitial:didFailToPresentWithError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the delegate that the interstitial has failed to present with some error.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)interstitial:(IMInterstitial *)<em>interstitial</em> didFailToPresentWithError:(IMRequestStatus *)<em>error</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the delegate that the interstitial has failed to present with some error.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">IMInterstitialDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/interstitial:didInteractWithParams:" title="interstitial:didInteractWithParams:"></a>
+	<h3 class="subsubtitle method-title">interstitial:didInteractWithParams:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the delegate that the interstitial has been interacted with.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)interstitial:(IMInterstitial *)<em>interstitial</em> didInteractWithParams:(NSDictionary *)<em>params</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the delegate that the interstitial has been interacted with.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">IMInterstitialDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/interstitial:rewardActionCompletedWithRewards:" title="interstitial:rewardActionCompletedWithRewards:"></a>
+	<h3 class="subsubtitle method-title">interstitial:rewardActionCompletedWithRewards:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the delegate that the user has performed the action to be incentivised with.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)interstitial:(IMInterstitial *)<em>interstitial</em> rewardActionCompletedWithRewards:(NSDictionary *)<em>rewards</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the delegate that the user has performed the action to be incentivised with.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">IMInterstitialDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/interstitialDidDismiss:" title="interstitialDidDismiss:"></a>
+	<h3 class="subsubtitle method-title">interstitialDidDismiss:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the delegate that the interstitial has been dismissed.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)interstitialDidDismiss:(IMInterstitial *)<em>interstitial</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the delegate that the interstitial has been dismissed.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">IMInterstitialDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/interstitialDidFinishLoading:" title="interstitialDidFinishLoading:"></a>
+	<h3 class="subsubtitle method-title">interstitialDidFinishLoading:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the delegate that the interstitial has finished loading and can be shown instantly.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)interstitialDidFinishLoading:(IMInterstitial *)<em>interstitial</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the delegate that the interstitial has finished loading and can be shown instantly.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">IMInterstitialDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/interstitialDidPresent:" title="interstitialDidPresent:"></a>
+	<h3 class="subsubtitle method-title">interstitialDidPresent:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the delegate that the interstitial has been presented.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)interstitialDidPresent:(IMInterstitial *)<em>interstitial</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the delegate that the interstitial has been presented.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">IMInterstitialDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/interstitialDidReceiveAd:" title="interstitialDidReceiveAd:"></a>
+	<h3 class="subsubtitle method-title">interstitialDidReceiveAd:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the delegate that the ad server has returned an ad. Assets are not yet available.
+Please use interstitialDidFinishLoading: to receive a callback when assets are also available.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)interstitialDidReceiveAd:(IMInterstitial *)<em>interstitial</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the delegate that the ad server has returned an ad. Assets are not yet available.
+Please use interstitialDidFinishLoading: to receive a callback when assets are also available.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">IMInterstitialDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/interstitialWillDismiss:" title="interstitialWillDismiss:"></a>
+	<h3 class="subsubtitle method-title">interstitialWillDismiss:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the delegate that the interstitial will be dismissed.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)interstitialWillDismiss:(IMInterstitial *)<em>interstitial</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the delegate that the interstitial will be dismissed.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">IMInterstitialDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/interstitialWillPresent:" title="interstitialWillPresent:"></a>
+	<h3 class="subsubtitle method-title">interstitialWillPresent:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the delegate that the interstitial would be presented.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)interstitialWillPresent:(IMInterstitial *)<em>interstitial</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the delegate that the interstitial would be presented.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">IMInterstitialDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/userWillLeaveApplicationFromInterstitial:" title="userWillLeaveApplicationFromInterstitial:"></a>
+	<h3 class="subsubtitle method-title">userWillLeaveApplicationFromInterstitial:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the delegate that the user will leave application context.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)userWillLeaveApplicationFromInterstitial:(IMInterstitial *)<em>interstitial</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the delegate that the user will leave application context.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">IMInterstitialDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2017 InMobi. All rights reserved. (Last updated: 2017-12-02)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

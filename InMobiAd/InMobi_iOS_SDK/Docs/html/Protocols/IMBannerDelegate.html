@@ -1,0 +1,739 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>IMBannerDelegate Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">InMobi SDK Documentation </a></h1>
+				<a id="developerHome" href="../index.html">InMobi</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">IMBannerDelegate Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/banner:didFailToLoadWithError:">&nbsp;&nbsp;&nbsp;&nbsp;- banner:didFailToLoadWithError:</option>
+	
+	<option value="//api/name/banner:didInteractWithParams:">&nbsp;&nbsp;&nbsp;&nbsp;- banner:didInteractWithParams:</option>
+	
+	<option value="//api/name/banner:rewardActionCompletedWithRewards:">&nbsp;&nbsp;&nbsp;&nbsp;- banner:rewardActionCompletedWithRewards:</option>
+	
+	<option value="//api/name/bannerDidDismissScreen:">&nbsp;&nbsp;&nbsp;&nbsp;- bannerDidDismissScreen:</option>
+	
+	<option value="//api/name/bannerDidFinishLoading:">&nbsp;&nbsp;&nbsp;&nbsp;- bannerDidFinishLoading:</option>
+	
+	<option value="//api/name/bannerDidPresentScreen:">&nbsp;&nbsp;&nbsp;&nbsp;- bannerDidPresentScreen:</option>
+	
+	<option value="//api/name/bannerWillDismissScreen:">&nbsp;&nbsp;&nbsp;&nbsp;- bannerWillDismissScreen:</option>
+	
+	<option value="//api/name/bannerWillPresentScreen:">&nbsp;&nbsp;&nbsp;&nbsp;- bannerWillPresentScreen:</option>
+	
+	<option value="//api/name/userWillLeaveApplicationFromBanner:">&nbsp;&nbsp;&nbsp;&nbsp;- userWillLeaveApplicationFromBanner:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/banner:didFailToLoadWithError:">banner:didFailToLoadWithError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/banner:didInteractWithParams:">banner:didInteractWithParams:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/banner:rewardActionCompletedWithRewards:">banner:rewardActionCompletedWithRewards:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bannerDidDismissScreen:">bannerDidDismissScreen:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bannerDidFinishLoading:">bannerDidFinishLoading:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bannerDidPresentScreen:">bannerDidPresentScreen:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bannerWillDismissScreen:">bannerWillDismissScreen:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bannerWillPresentScreen:">bannerWillPresentScreen:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/userWillLeaveApplicationFromBanner:">userWillLeaveApplicationFromBanner:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="IMBannerDelegate Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">IMBannerDelegate Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">IMBannerDelegate.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<ul>
+<li>A listener for receiving notifications during the lifecycle of a banner ad.
+*</li>
+<li>Note All the events in this listener will be invoked on your application&rsquo;s UI thread.</li>
+</ul>
+
+
+<p>In most cases your application will need to listen for the following events on a banner ad</p>
+
+<p>The outcome of an ad request (if the request succeeded or failed);
+see bannerDidFinishLoading:(IMBanner<em>)banner; and banner:(IMBanner</em>)banner didFailToLoadWithError:(IMRequestStatus*)error;</p>
+
+<p>The ad opened an overlay that covered the screen. This means that the user can no longer interact with your application;
+see bannerDidPresentScreen:(IMBanner*)banner</p>
+
+<p>The ad overlay opened was dismissed. The user is now free to interact with your application;
+see bannerDidDismissScreen:(IMBanner*)banner;</p>
+
+<p>A user interaction with the ad will result in the User leaving your application context;
+see userWillLeaveApplicationFromBanner:(IMBanner*)banner;</p>
+
+<p>If your application involves running rewarded or incentivised ads, then you should, in addition to the above events, also listen for the banner:(IMBanner<em>)banner rewardActionCompletedWithRewards:(NSDictionary</em>)rewards event and handle it appropriately to unlock rewards for the user of your app.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bannerDidFinishLoading:">&ndash;&nbsp;bannerDidFinishLoading:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/banner:didFailToLoadWithError:">&ndash;&nbsp;banner:didFailToLoadWithError:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/banner:didInteractWithParams:">&ndash;&nbsp;banner:didInteractWithParams:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/userWillLeaveApplicationFromBanner:">&ndash;&nbsp;userWillLeaveApplicationFromBanner:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bannerWillPresentScreen:">&ndash;&nbsp;bannerWillPresentScreen:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bannerDidPresentScreen:">&ndash;&nbsp;bannerDidPresentScreen:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bannerWillDismissScreen:">&ndash;&nbsp;bannerWillDismissScreen:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bannerDidDismissScreen:">&ndash;&nbsp;bannerDidDismissScreen:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/banner:rewardActionCompletedWithRewards:">&ndash;&nbsp;banner:rewardActionCompletedWithRewards:</a></code>
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/banner:didFailToLoadWithError:" title="banner:didFailToLoadWithError:"></a>
+	<h3 class="subsubtitle method-title">banner:didFailToLoadWithError:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the delegate that the banner has failed to load with some error.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)banner:(IMBanner *)<em>banner</em> didFailToLoadWithError:(IMRequestStatus *)<em>error</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the delegate that the banner has failed to load with some error.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">IMBannerDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/banner:didInteractWithParams:" title="banner:didInteractWithParams:"></a>
+	<h3 class="subsubtitle method-title">banner:didInteractWithParams:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the delegate that the banner was interacted with.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)banner:(IMBanner *)<em>banner</em> didInteractWithParams:(NSDictionary *)<em>params</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the delegate that the banner was interacted with.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">IMBannerDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/banner:rewardActionCompletedWithRewards:" title="banner:rewardActionCompletedWithRewards:"></a>
+	<h3 class="subsubtitle method-title">banner:rewardActionCompletedWithRewards:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the delegate that the user has completed the action to be incentivised with.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)banner:(IMBanner *)<em>banner</em> rewardActionCompletedWithRewards:(NSDictionary *)<em>rewards</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the delegate that the user has completed the action to be incentivised with.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">IMBannerDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/bannerDidDismissScreen:" title="bannerDidDismissScreen:"></a>
+	<h3 class="subsubtitle method-title">bannerDidDismissScreen:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the delegate that the banner has dismissed the presented screen.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)bannerDidDismissScreen:(IMBanner *)<em>banner</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the delegate that the banner has dismissed the presented screen.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">IMBannerDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/bannerDidFinishLoading:" title="bannerDidFinishLoading:"></a>
+	<h3 class="subsubtitle method-title">bannerDidFinishLoading:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the delegate that the banner has finished loading</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)bannerDidFinishLoading:(IMBanner *)<em>banner</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the delegate that the banner has finished loading</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">IMBannerDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/bannerDidPresentScreen:" title="bannerDidPresentScreen:"></a>
+	<h3 class="subsubtitle method-title">bannerDidPresentScreen:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the delegate that the banner has finished presenting screen.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)bannerDidPresentScreen:(IMBanner *)<em>banner</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the delegate that the banner has finished presenting screen.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">IMBannerDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/bannerWillDismissScreen:" title="bannerWillDismissScreen:"></a>
+	<h3 class="subsubtitle method-title">bannerWillDismissScreen:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the delegate that the banner will start dismissing the presented screen.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)bannerWillDismissScreen:(IMBanner *)<em>banner</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the delegate that the banner will start dismissing the presented screen.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">IMBannerDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/bannerWillPresentScreen:" title="bannerWillPresentScreen:"></a>
+	<h3 class="subsubtitle method-title">bannerWillPresentScreen:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the delegate that the banner would be presenting a full screen content.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)bannerWillPresentScreen:(IMBanner *)<em>banner</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the delegate that the banner would be presenting a full screen content.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">IMBannerDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/userWillLeaveApplicationFromBanner:" title="userWillLeaveApplicationFromBanner:"></a>
+	<h3 class="subsubtitle method-title">userWillLeaveApplicationFromBanner:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Notifies the delegate that the user would be taken out of the application context.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)userWillLeaveApplicationFromBanner:(IMBanner *)<em>banner</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Notifies the delegate that the user would be taken out of the application context.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">IMBannerDelegate.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2017 InMobi. All rights reserved. (Last updated: 2017-12-02)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

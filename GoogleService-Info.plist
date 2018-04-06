@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>239444156199-krpof3rratr3rkr8bte2i39n5i1m1f5v.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.239444156199-krpof3rratr3rkr8bte2i39n5i1m1f5v</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAdrnfh3uM3glmPEyHWjP6cUm2w9nKz4Bw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>239444156199</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>net.gogame.DemoAds</string>
+	<key>PROJECT_ID</key>
+	<string>advert-4b2a2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>advert-4b2a2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:239444156199:ios:516bbd2faa329692</string>
+	<key>DATABASE_URL</key>
+	<string>https://advert-4b2a2.firebaseio.com</string>
+</dict>
+</plist>
